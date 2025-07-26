@@ -25,12 +25,26 @@ export default {
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
 				primary: {
-					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					DEFAULT: '#8B0000',
+					foreground: '#FFFFFF'
 				},
 				secondary: {
-					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					DEFAULT: '#DC143C',
+					foreground: '#FFFFFF'
+				},
+				burgundy: {
+					50: '#FDF2F2',
+					100: '#FCE7E7',
+					500: '#8B0000',
+					600: '#660000',
+					900: '#4A0000'
+				},
+				crimson: {
+					50: '#FEF2F2',
+					100: '#FEE2E2',
+					500: '#DC143C',
+					600: '#B91C1C',
+					900: '#7F1D1D'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
@@ -62,6 +76,10 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				}
+			},
+			fontFamily: {
+				heading: ['Montserrat', 'sans-serif'],
+				body: ['Open Sans', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
